@@ -1,0 +1,25 @@
+services.xsodata
+================
+service {
+    "SYS"."AFL_AREAS" as "AFLAreas" key generate local "ID";
+}
+
+
+Test URL for OData
+==================
+http://hana:8000/myApp/services.xsodata/AFLAreas?$format=json
+
+
+anon.xssqlcc
+============
+{
+    "description" : "Anonymous Connection",
+    "role_for_auto_user" : "myApp::anon"
+}
+
+
+.xsaccess
+=========
+{
+    "anonymous_connection": "myApp::anon",
+}

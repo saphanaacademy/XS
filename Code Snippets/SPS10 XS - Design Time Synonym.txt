@@ -1,0 +1,12 @@
+AFLAreas.hdbsynonym
+===================
+
+{ 
+"myApp::AFLAreas": { 
+    "target": { 
+        "schema": "SYS", 
+        "object": "AFL_AREAS" 
+        }, 
+	"schema": "MYSCHEMA" 
+    } 
+} 
